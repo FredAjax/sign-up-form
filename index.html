@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Odin Project | Signup form</title>
+</head>
+<body>
+    <aside id="logo">
+    <img src="https://ajaxson.no/logo.svg">
+    <div id="bckgrnd-overlay"></div>
+    <div id="bckgrnd"></div>
+  </aside>
+  <section id="form-section">
+    <h1>This is <u>not</u> a real online service!<br>You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</h1>
+    <h2 id="thankYou" style="display:none;">Thank you for registering <span id="new_username"></span>!</h2>
+    <div id="form-container">
+    <h2>Let's do this</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <div class="form-wrapper">
+          <label for="first_name">First name</label>
+          <input type="text" id="first_name" placeholder="Thor">
+          </div>
+          <div class="form-wrapper">
+          <label for="last_name">Last name</label>
+          <input type="text" id="last_name" placeholder="Odinson">
+          </div>
+        </fieldset>
+        
+        <fieldset>
+          <div class="form-wrapper">
+          <label for="user_email">Email</label>
+          <input type="email" id="user_email" placeholder="you@example.com">
+            </div>
+          <div class="form-wrapper">
+          <label for="phone_nr">Phone number</label>
+          <input type="text" id="phone_nr"  placeholder="000 00 000">
+        </div>
+            </fieldset>
+        
+        <fieldset>
+          <div class="form-wrapper">
+          <label for="user_password">Password</label>
+          <input type="password" id="user_password" name="password" placeholder=" " minlength="5" required>
+          </div>
+          <div class="form-wrapper">  
+          <label for="password_confirm">Confirm password</label>
+          <input type="password" id="password_confirm" name="password_confirm" placeholder=" " minlength="5" required>
+        </div>
+            </fieldset>
+        <button type="submit">Create account</button>
+      </form>
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
+  </section>
+</body>
+</html>
