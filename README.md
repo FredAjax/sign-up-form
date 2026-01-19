@@ -1,2 +1,2 @@
 # sign-up-form
-Odin Project Foundation project #6
+Odin Project Intermediate HTML and CSS project #1
